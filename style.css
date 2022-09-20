@@ -54,18 +54,6 @@ body{
   }
   
   
-  a {
-    color:#eee;
-    outline: 0;
-    text-decoration: none;
-  }
-  
-  a:focus,
-  a:hover {
-    text-decoration: underline;
-  }
-
-  
   input {
     background-image: none;
     border: 0;
@@ -103,27 +91,16 @@ body{
     cursor: pointer;
   }
   
-  
   input[type="text"],
   select,
   option,
   input[type="submit"] {
-    inline-size: 100%;
-  }
-  
-
-
-  input[type="text"],
-  select,
-  option,
-  input[type="submit"] {
+      inline-size: 100%;
   border-radius: 0.25rem;
   padding: 1rem;
   }
   
-  
-  
-  
+   
   input[type="text"],option,select {
     background-color: #3b4148;
     border-bottom-left-radius: 0;
